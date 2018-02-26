@@ -1,0 +1,5 @@
+node_modules
+claudia.json
+.DS_Store
+*.log
+idea/*
