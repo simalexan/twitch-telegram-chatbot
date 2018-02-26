@@ -20,7 +20,7 @@ module.exports = botBuilder(function (message) {
      console.log('before our request')
     return rp.get('https://api.twitch.tv/helix/streams?user_login=simalexan', {
 	  headers: {
-	  "Client-ID": "p98wnek9q3t68rarz8b2ikdgcpf2ia"
+	  "Client-ID": "<YOUR CLIENT ID from TWITCH>"
 	  }
 	}).then(function(response){
 	   console.log(response);
